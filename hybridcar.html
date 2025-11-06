@@ -1,57 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hybrid Car Overview</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f8f5;
-            color: #333;
-            margin: 40px;
-        }
-        h1 {
-            color: #2e8b57;
-        }
-        .car-info {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        p {
-            line-height: 1.6;
-        }
-        .details {
-            margin-top: 15px;
-            padding-left: 20px;
-        }
-        .details li {
-            margin-bottom: 8px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2025 Honda Pilot vs 2025 Toyota Highlander — Full Comparison</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #004d7a;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h2 {
+      color: #004d7a;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .vehicle-card {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .vehicle {
+      flex: 1 1 45%;
+      background: #fff;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .vehicle img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .vehicle h3 {
+      margin-top: 10px;
+      color: #006bb3;
+    }
+    .specs {
+      list-style: none;
+      padding: 0;
+    }
+    .specs li {
+      margin: 6px 0;
+    }
+    .compare-button {
+      display: block;
+      width: 200px;
+      margin: 20px auto;
+      padding: 12px;
+      background: #006bb3;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .compare-button:hover {
+      background: #004d7a;
+    }
+    #comparisonTable {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    #comparisonTable th, #comparisonTable td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    #comparisonTable th {
+      background: #e6f2ff;
+    }
+    footer {
+      background: #004d7a;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      .vehicle {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
 </head>
 <body>
 
-    <h1>Hybrid Car</h1>
+  <header>
+    <h1>2025 Honda Pilot vs 2025 Toyota Highlander</h1>
+    <p>Which midsize 3-row SUV is right for you? Explore design, performance, cost & more.</p>
+  </header>
 
-    <div class="car-info">
-        <p>
-            A <strong>hybrid car</strong> combines an internal combustion engine with an electric motor 
-            to deliver better fuel efficiency and reduced emissions. It’s designed to switch between 
-            or combine power sources depending on driving conditions, offering both performance 
-            and eco-friendliness.
-        </p>
+  <main>
 
-        <ul class="details">
-            <li><strong>Body Type:</strong> Sedan</li>
-            <li><strong>Mileage:</strong> 22 km/l (approx.)</li>
-            <li><strong>Horsepower:</strong> 150 HP combined (engine + electric motor)</li>
-            <li><strong>Environmental Impact:</strong> Produces fewer CO₂ emissions and consumes 
-                less fuel, helping reduce air pollution and dependence on fossil fuels.</li>
-        </ul>
+    <!-- Section: Overview & Lifestyle/Design -->
+    <div class="section" id="design">
+      <h2>1. Lifestyle & Design</h2>
+      <div class="vehicle-card">
+        <div class="vehicle">
+          <img src="https://images.unsplash.com/photo-1608222351212-16cb0a5b7b63?auto=format&fit=crop&w=800&q=80" alt="2025 Honda Pilot exterior">
+          <h3>2025 Honda Pilot</h3>
+          <p>The Pilot is built for families and adventure. With three rows of seating (up to 8), optional all-wheel drive, and rugged styling on trims like the TrailSport, it accommodates both daily commuting and weekend escapes. :contentReference[oaicite:2]{index=2}</p>
+        </div>
+        <div class="vehicle">
+          <img src="https://cdn.motor1.com/images/mgl/VeY6b/s3/2025-toyota-highlander-front.jpg" alt="2025 Toyota Highlander exterior">
+          <h3>2025 Toyota Highlander</h3>
+          <p>The Highlander offers a refined, comfortable cabin with three rows and seating up to 8, elegant design cues, and tech-forward amenities. It leans toward everyday family comfort and sophistication. :contentReference[oaicite:3]{index=3}</p>
+        </div>
+      </div>
     </div>
 
+    <!-- Section: Performance & Mileage -->
+    <div class="section" id="performance">
+      <h2>2. Performance & Mileage</h2>
+      <table id="comparisonTable">
+        <tr>
+          <th>Model</th>
+          <th>Engine / Power</th>
+          <th>Combined MPG Estimate</th>
+          <th>Towing Capacity</th>
+        </tr>
+        <tr>
+          <td>2025 Honda Pilot</td>
+          <td>3.5-L V6, approx. 285 hp, 262 lb-ft :contentReference[oaicite:4]{index=4}</td>
+          <td>≈ 21 mpg (combined) :contentReference[oaicite:5]{index=5}</td>
+          <td>Up to ~5,000 lbs (varies by trim) :contentReference[oaicite:6]{index=6}</td>
+        </tr>
+        <tr>
+          <td>2025 Toyota Highlander</td>
+          <td>2.4-L Turbo 4-cyl, 265 hp :contentReference[oaicite:7]{index=7}</td>
+          <td>≈ 24 mpg (combined) typical gas version :contentReference[oaicite:8]{index=8}</td>
+          <td>Up to ~5,000 lbs :contentReference[oaicite:9]{index=9}</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Section: Cost of Maintenance & Ownership -->
+    <div class="section" id="cost">
+      <h2>3. Cost of Maintenance & Ownership</h2>
+      <p>When comparing ownership costs, including fuel, maintenance, and depreciation, it’s important to look at reported data.</p>
+      <ul>
+        <li>The Highlander’s 5-year cost to own for many trims is estimated around **$60,000-$65,000** for gas models. :contentReference[oaicite:10]{index=10}</li>
+        <li>The Pilot shows a combined MPG estimate lower than the Highlander, which may translate to higher fuel cost over time. :contentReference[oaicite:11]{index=11}</li>
+        <li>For both vehicles, maintenance and service intervals are similar for major brand midsize SUVs—but Honda’s V6 may demand slightly more fuel than the Highlander’s 4-cyl turbo in some usage scenarios.</li>
+      </ul>
+    </div>
+
+    <!-- Section: User Interactive Compare Button -->
+    <div class="section" id="interactive">
+      <h2>4. Interactive Feature</h2>
+      <p>Click the button below to toggle highlight the model that may suit your preferences:</p>
+      <button class="compare-button" onclick="toggleHighlight()">Which fits me better?</button>
+
+      <div id="highlightBox" style="display:none; margin-top:20px; padding:15px; background:#eef; border-radius:8px;">
+        <strong id="highlightText"></strong>
+      </div>
+    </div>
+
+    <!-- Section: Other Relevant Factors & Final Thoughts -->
+    <div class="section" id="others">
+      <h2>5. Other Relevant Factors & Final Thoughts</h2>
+      <h3>Interior & Cargo Space</h3>
+      <p>The Pilot offers generous space for adults in the third row and a large cargo area. The Highlander, while comfortable and upscale, may have slightly less cargo behind the third row. :contentReference[oaicite:12]{index=12}</p>
+
+      <h3>Technology & Safety</h3>
+      <p>Both vehicles come equipped with latest driver-assist features and infotainment systems, including smartphone integration, adaptive cruise, and more. Highlander offers strong tech suite especially on higher trims. :contentReference[oaicite:13]{index=13}</p>
+
+      <h3>Resale & Reliability</h3>
+      <p>Toyota has a longstanding reputation for reliability and strong resale value. Honda too has strong reputation—but some newer reports may suggest scrutiny around some engine specs. (Always check latest reports and warranties before purchase.)</p>
+
+      <h3>Final Thoughts</h3>
+      <p>👉 If you prioritize **stronger power and spacious third-row/ cargo** for family or adventure use, the Honda Pilot is a compelling choice. <br>
+         👉 If you prioritize **better efficiency, tech features, and reputation/resale**, the Toyota Highlander may have the edge.</p>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2025 SUV Comparison Guide | Built by You
+  </footer>
+
+  <script>
+    // JavaScript for interactive feature
+    function toggleHighlight() {
+      const highlightBox = document.getElementById('highlightBox');
+      const highlightText = document.getElementById('highlightText');
+      if (highlightBox.style.display === 'none') {
+        // select a model based on a very simple logic
+        const userPref = confirm("Do you prioritize fuel efficiency over power? (OK=Yes, Cancel=No)");
+        if (userPref) {
+          highlightText.textContent = "Based on your preference for efficiency, the 2025 Toyota Highlander is likely the better fit.";
+        } else {
+          highlightText.textContent = "Based on your preference for stronger power and space, the 2025 Honda Pilot may be the better fit.";
+        }
+        highlightBox.style.display = 'block';
+      } else {
+        highlightBox.style.display = 'none';
+      }
+    }
+  </script>
 </body>
 </html>
